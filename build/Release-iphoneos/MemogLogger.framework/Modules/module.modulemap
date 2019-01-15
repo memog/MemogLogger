@@ -1,0 +1,11 @@
+framework module MemogLogger {
+  umbrella header "MemogLogger.h"
+
+  export *
+  module * { export * }
+}
+
+module MemogLogger.Swift {
+    header "MemogLogger-Swift.h"
+    requires objc
+}

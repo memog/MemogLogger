@@ -1,0 +1,10 @@
+framework module MemogLogger {
+  umbrella header "MemogLogger.h"
+
+  export *
+  module * { export * }
+}
+
+module MemogLogger.__Swift {
+    exclude header "MemogLogger-Swift.h"
+}

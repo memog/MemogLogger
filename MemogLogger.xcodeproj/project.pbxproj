@@ -9,13 +9,53 @@
 /* Begin PBXBuildFile section */
 		BB95D4AA21EE6E5800D7BB41 /* MemogLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = BB95D4A821EE6E5800D7BB41 /* MemogLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB95D4B121EE6EAA00D7BB41 /* MemogLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB95D4B021EE6EAA00D7BB41 /* MemogLogger.swift */; };
+		BBA3B97321EE9301003A66C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA3B97221EE9301003A66C7 /* AppDelegate.swift */; };
+		BBA3B97521EE9301003A66C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA3B97421EE9301003A66C7 /* ViewController.swift */; };
+		BBA3B97821EE9301003A66C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA3B97621EE9301003A66C7 /* Main.storyboard */; };
+		BBA3B97B21EE9301003A66C7 /* Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BBA3B97921EE9301003A66C7 /* Demo.xcdatamodeld */; };
+		BBA3B97D21EE9302003A66C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA3B97C21EE9302003A66C7 /* Assets.xcassets */; };
+		BBA3B98021EE9302003A66C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA3B97E21EE9302003A66C7 /* LaunchScreen.storyboard */; };
+		BBA3B98521EE9316003A66C7 /* MemogLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB95D4A521EE6E5800D7BB41 /* MemogLogger.framework */; };
+		BBA3B98621EE9316003A66C7 /* MemogLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB95D4A521EE6E5800D7BB41 /* MemogLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBA3B98721EE9316003A66C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB95D49C21EE6E5800D7BB41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB95D4A421EE6E5800D7BB41;
+			remoteInfo = MemogLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBA3B98921EE9316003A66C7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BBA3B98621EE9316003A66C7 /* MemogLogger.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BB95D4A521EE6E5800D7BB41 /* MemogLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MemogLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB95D4A821EE6E5800D7BB41 /* MemogLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemogLogger.h; sourceTree = "<group>"; };
 		BB95D4A921EE6E5800D7BB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB95D4B021EE6EAA00D7BB41 /* MemogLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemogLogger.swift; sourceTree = "<group>"; };
+		BBA3B97021EE9300003A66C7 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA3B97221EE9301003A66C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBA3B97421EE9301003A66C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBA3B97721EE9301003A66C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBA3B97A21EE9301003A66C7 /* Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo.xcdatamodel; sourceTree = "<group>"; };
+		BBA3B97C21EE9302003A66C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBA3B97F21EE9302003A66C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBA3B98121EE9302003A66C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +66,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBA3B96D21EE9300003A66C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA3B98521EE9316003A66C7 /* MemogLogger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -33,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				BB95D4A721EE6E5800D7BB41 /* MemogLogger */,
+				BBA3B97121EE9300003A66C7 /* Demo */,
 				BB95D4A621EE6E5800D7BB41 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				BB95D4A521EE6E5800D7BB41 /* MemogLogger.framework */,
+				BBA3B97021EE9300003A66C7 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +103,20 @@
 				BB95D4B021EE6EAA00D7BB41 /* MemogLogger.swift */,
 			);
 			path = MemogLogger;
+			sourceTree = "<group>";
+		};
+		BBA3B97121EE9300003A66C7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BBA3B97221EE9301003A66C7 /* AppDelegate.swift */,
+				BBA3B97421EE9301003A66C7 /* ViewController.swift */,
+				BBA3B97621EE9301003A66C7 /* Main.storyboard */,
+				BBA3B97C21EE9302003A66C7 /* Assets.xcassets */,
+				BBA3B97E21EE9302003A66C7 /* LaunchScreen.storyboard */,
+				BBA3B98121EE9302003A66C7 /* Info.plist */,
+				BBA3B97921EE9301003A66C7 /* Demo.xcdatamodeld */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,18 +151,41 @@
 			productReference = BB95D4A521EE6E5800D7BB41 /* MemogLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		BBA3B96F21EE9300003A66C7 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA3B98421EE9302003A66C7 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				BBA3B96C21EE9300003A66C7 /* Sources */,
+				BBA3B96D21EE9300003A66C7 /* Frameworks */,
+				BBA3B96E21EE9300003A66C7 /* Resources */,
+				BBA3B98921EE9316003A66C7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBA3B98821EE9316003A66C7 /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = BBA3B97021EE9300003A66C7 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		BB95D49C21EE6E5800D7BB41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Inmediatum;
 				TargetAttributes = {
 					BB95D4A421EE6E5800D7BB41 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
+					};
+					BBA3B96F21EE9300003A66C7 = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
@@ -108,6 +195,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = BB95D49B21EE6E5800D7BB41;
 			productRefGroup = BB95D4A621EE6E5800D7BB41 /* Products */;
@@ -115,6 +203,7 @@
 			projectRoot = "";
 			targets = (
 				BB95D4A421EE6E5800D7BB41 /* MemogLogger */,
+				BBA3B96F21EE9300003A66C7 /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +213,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA3B96E21EE9300003A66C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA3B98021EE9302003A66C7 /* LaunchScreen.storyboard in Resources */,
+				BBA3B97D21EE9302003A66C7 /* Assets.xcassets in Resources */,
+				BBA3B97821EE9301003A66C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +237,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBA3B96C21EE9300003A66C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA3B97B21EE9301003A66C7 /* Demo.xcdatamodeld in Sources */,
+				BBA3B97521EE9301003A66C7 /* ViewController.swift in Sources */,
+				BBA3B97321EE9301003A66C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBA3B98821EE9316003A66C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB95D4A421EE6E5800D7BB41 /* MemogLogger */;
+			targetProxy = BBA3B98721EE9316003A66C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBA3B97621EE9301003A66C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA3B97721EE9301003A66C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBA3B97E21EE9302003A66C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA3B97F21EE9302003A66C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BB95D4AB21EE6E5800D7BB41 /* Debug */ = {
@@ -266,6 +402,7 @@
 		BB95D4AE21EE6E5800D7BB41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -293,6 +430,7 @@
 		BB95D4AF21EE6E5800D7BB41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +449,44 @@
 				PRODUCT_BUNDLE_IDENTIFIER = imediatum.MemogLogger;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBA3B98221EE9302003A66C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SL78H4EUY;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = imediatum.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBA3B98321EE9302003A66C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SL78H4EUY;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = imediatum.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,7 +513,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BBA3B98421EE9302003A66C7 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA3B98221EE9302003A66C7 /* Debug */,
+				BBA3B98321EE9302003A66C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BBA3B97921EE9301003A66C7 /* Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BBA3B97A21EE9301003A66C7 /* Demo.xcdatamodel */,
+			);
+			currentVersion = BBA3B97A21EE9301003A66C7 /* Demo.xcdatamodel */;
+			path = Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BB95D49C21EE6E5800D7BB41 /* Project object */;
 }

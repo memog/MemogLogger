@@ -23,10 +23,14 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/memog"
   s.license      = { :type => "MIT", :file => "license" }
-  s.author             = { "Guillermo Garcia" => "memog@gmail.com" }
-  s.ios.deployment_target = '8.0'
-  s.ios.vendored_frameworks = 'MemogLogger.framework'
-  s.source            = { :http => 'https://github.com/memog/MemogLogger/blob/master/MemogLogger.zip' }
+  s.author             = { "Guillermo Garcia" => "memoogd@gmail.com" }
+  s.platform = :ios, "11.0"
+  s.ios.vendored_frameworks = 'MemogLogger/MemogLogger.framework'
+  #s.source       = { :git => "https://github.com/memog/MemogLogger/blob/master/MemogLogger.zip", :tag => "1.0" }
+   s.source            = { :http => 'https://s3-eu-west-1.amazonaws.com/demo-images.ebuilder.io/NiceLogger.zip' }
   s.exclude_files = "Classes/Exclude"
+  s.source_files = "Classes", "Classes/**/*.{h,m}"
+
+
 
 end

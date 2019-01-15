@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Memo/Documents/MemogLogger/build/Release-iphoneos/MemogLogger.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MemogLogger-Swift.h",
+          'external-contents': "/Users/Memo/Documents/MemogLogger/build/Release-iphoneos/MemogLogger.framework/Headers/MemogLogger-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MemogLogger.h",
+          'external-contents': "/Users/Memo/Documents/MemogLogger/MemogLogger/MemogLogger.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Memo/Documents/MemogLogger/build/Release-iphoneos/MemogLogger.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Memo/Documents/MemogLogger/build/MemogLogger.build/Release-iphoneos/MemogLogger.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

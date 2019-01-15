@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "7832f0e567941b3cb2bfccb81e17a8d0"
+build_time: [1547589927, 212496000]
+inputs:
+  "/Users/Memo/Documents/MemogLogger/MemogLogger/MemogLogger.swift": [9223372036, 854775807]
