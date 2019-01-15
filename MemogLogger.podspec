@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MemogLogger"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "A nice logger tool in Swift."
   s.description  = <<-DESC
   A nice logger tool in Swift. Cheers
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "license" }
   s.author             = { "Guillermo Garcia" => "memog@gmail.com" }
   s.ios.deployment_target = '8.0'
-  s.ios.vendored_frameworks = 'MemogLogger/MemogLogger.framework'
-  s.source            = { :http => 'https://s3-eu-west-1.amazonaws.com/demo-images.ebuilder.io/NiceLogger.zip' }
+  s.ios.vendored_frameworks = 'MemogLogger.framework'
+  s.source            = { :http => 'https://github.com/memog/MemogLogger/blob/master/MemogLogger.zip' }
   s.exclude_files = "Classes/Exclude"
 
 end
